@@ -6,11 +6,20 @@
 }
 
 body { 
-    background: url(./pattern.png);
+    margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    background: url(./Images/3418100.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main{
-background: #1d1a4d;
+background: #213047;
 width: 400px;
 height: 175px;
 margin: 100px auto;
@@ -18,25 +27,26 @@ position: relative;
 padding: 30px;
 border-radius: 10px;
 }
+
+
 .badge{
     text-align: center;
-    background: #646062;
-    color: white;
+    color: #ffffff;
     padding: 5px 10px;
     font-family: sans-serif;
     font-weight: bold;
-    width: 96px;
-    top: -15px;
-    left: 40%;
+    top: 30vh;
+    left: 46%;
     position: absolute;
     border-radius: 8px;
 }
+
 .clock{
-    background: #998ba7;
+    background: #00cbf4;
     font-size: 55px;
     text-align: center;
     height: 100%;
-    padding-top: 35px;
+    padding-top: 25px;
     font-family: orbitron;
-    border-radius: 10px;
+    border-radius: 30px;
 }
